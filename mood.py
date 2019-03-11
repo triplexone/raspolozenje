@@ -1,5 +1,5 @@
 ime = input("Kako se zoveš? ")
-raspolozenje = input ("Pozdrav "+ime+", kako si? ")
+raspolozenje = input ("Pozdrav "+ime+", kako si? ").lower ()
 
 if raspolozenje == "dobro":
     print ("Baš mi je drago da si dobro!")
